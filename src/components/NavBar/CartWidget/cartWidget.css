@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+
+
+.cart_item{
+    justify-content: space-between;
+    align-items: center;
+    color: #0aa0aa;
+    margin: 0 20px;
+    font-family: 'Wire One', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    position: relative;
+    padding: 5px;
+    list-style: none;
+    display: inline;
+}
+
+.cartImg{
+    width: 35px;
+    height: auto;
+    display: inline;
+}
+
+.number{
+    display: inline;
+    color: #0aa0aa;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.number:hover{
+    opacity: 0.8;
+}
